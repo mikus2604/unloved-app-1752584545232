@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS posts (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), title TEXT, content TEXT, author TEXT, created_at TIMESTAMP DEFAULT NOW());
